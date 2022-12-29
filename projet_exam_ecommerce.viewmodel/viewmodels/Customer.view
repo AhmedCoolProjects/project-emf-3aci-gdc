@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.group.model="http://org/eclipse/emf/ecp/view/group/model" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/1180" xmi:id="_9KkaAIeAEe2RNcuBaQTuAw" name="Customer">
+  <rootEClass href="metadatauri#//Customer"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_9KsV0IeAEe2RNcuBaQTuAw" name="Control id">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_9KsV0YeAEe2RNcuBaQTuAw">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Customer/id"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.group.model:Group" xmi:id="_FiREwIeBEe2RNcuBaQTuAw" name="Personal Infos" groupType="Collapsible">
+    <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_9KsV0oeAEe2RNcuBaQTuAw" name="Control full_name">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_9KsV04eAEe2RNcuBaQTuAw">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Customer/full_name"/>
+      </domainModelReference>
+    </children>
+    <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_9KsV1IeAEe2RNcuBaQTuAw" name="Control email">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_9KsV1YeAEe2RNcuBaQTuAw">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Customer/email"/>
+      </domainModelReference>
+    </children>
+    <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_9KsV3IeAEe2RNcuBaQTuAw" name="Control gender">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_9KsV3YeAEe2RNcuBaQTuAw">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Customer/gender"/>
+      </domainModelReference>
+    </children>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.group.model:Group" xmi:id="_AZU1AIeBEe2RNcuBaQTuAw" name="Credentials" groupType="Collapsible">
+    <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_9KsV1oeAEe2RNcuBaQTuAw" name="Control phone">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_9KsV14eAEe2RNcuBaQTuAw">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Customer/phone"/>
+      </domainModelReference>
+    </children>
+    <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_9KsV2IeAEe2RNcuBaQTuAw" name="Control address">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_9KsV2YeAEe2RNcuBaQTuAw">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Customer/address"/>
+      </domainModelReference>
+    </children>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.group.model:Group" xmi:id="_VO9AEIeBEe2RNcuBaQTuAw" name="Orders List" groupType="Collapsible">
+    <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_9KsV2oeAEe2RNcuBaQTuAw" name="Control orders">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_9KsV24eAEe2RNcuBaQTuAw">
+        <domainModelEFeature xsi:type="ecore:EReference" href="metadatauri#//Customer/orders"/>
+      </domainModelReference>
+    </children>
+  </children>
+  <ecorePaths>/projet_exam_ecommerce/model/metadata.ecore</ecorePaths>
+</org.eclipse.emf.ecp.view.model:View>

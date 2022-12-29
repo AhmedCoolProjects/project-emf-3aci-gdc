@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.group.model="http://org/eclipse/emf/ecp/view/group/model" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/1180" xmi:id="_rCCU8IacEe2PjYvkoMs-mg" name="Order">
+  <rootEClass href="metadatauri#//Order"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_rCIbkIacEe2PjYvkoMs-mg" name="Control id">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_rCIbkYacEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Order/id"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_rCIbkoacEe2PjYvkoMs-mg" name="Control number">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_rCIbk4acEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Order/number"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_rCIblIacEe2PjYvkoMs-mg" name="Control date">
+    <attachments xsi:type="org.eclipse.emf.ecp.view.model:DateTimeDisplayAttachment" xmi:id="_CKDZYIadEe2PjYvkoMs-mg"/>
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_rCIblYacEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Order/date"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.group.model:Group" xmi:id="_-ZrfEIacEe2PjYvkoMs-mg" name="Products List" groupType="Collapsible">
+    <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_rCIbloacEe2PjYvkoMs-mg" name="Control products">
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_rCIbl4acEe2PjYvkoMs-mg">
+        <domainModelEFeature xsi:type="ecore:EReference" href="metadatauri#//Order/products"/>
+      </domainModelReference>
+    </children>
+  </children>
+  <ecorePaths>/projet_exam_ecommerce/model/metadata.ecore</ecorePaths>
+</org.eclipse.emf.ecp.view.model:View>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/1180" xmi:id="_WrRQIIacEe2PjYvkoMs-mg" name="Product">
+  <rootEClass href="metadatauri#//Product"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_WrergIacEe2PjYvkoMs-mg" name="Control id">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_WrergYacEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Product/id"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_WrergoacEe2PjYvkoMs-mg" name="Control title">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_Wrerg4acEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Product/title"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_WrerhIacEe2PjYvkoMs-mg" name="Control description">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_WrerhYacEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Product/description"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_WrerhoacEe2PjYvkoMs-mg" name="Control price">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_Wrerh4acEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Product/price"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_WreriIacEe2PjYvkoMs-mg" name="Control category">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_WreriYacEe2PjYvkoMs-mg">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="metadatauri#//Product/category"/>
+    </domainModelReference>
+  </children>
+  <ecorePaths>/projet_exam_ecommerce/model/metadata.ecore</ecorePaths>
+</org.eclipse.emf.ecp.view.model:View>
